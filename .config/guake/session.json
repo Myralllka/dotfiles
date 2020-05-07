@@ -1,0 +1,20 @@
+{
+    "schema_version": 2,
+    "timestamp": 1575722107,
+    "workspace": {
+        "0": [
+            [
+                {
+                    "panes": [
+                        {
+                            "type": "term",
+                            "directory": "/home/myralllka"
+                        }
+                    ],
+                    "label": "Terminal",
+                    "custom_label_set": false
+                }
+            ]
+        ]
+    }
+}

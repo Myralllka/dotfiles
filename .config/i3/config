@@ -226,7 +226,8 @@ bindsym Shift+Print exec flameshot gui
 # bindkeys
 exec --no-startup-id setxkbmap -layout us,ua,ru
 exec --no-startup-id setxkbmap -option 'grp:win_space_toogle'
-
+exec --no-startup-id changing_locale
+exec --no-startup-id keyboard
 # background 
 exec --no-startup-id feh --bg-scale  Pictures/Wallpapers/uckgbxxfvdr21.png
 

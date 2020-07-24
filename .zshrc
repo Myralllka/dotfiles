@@ -8,6 +8,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(git
 	zsh-autosuggestions
 	zsh-syntax-highlighting
+	zsh-z
 	k
 )
 

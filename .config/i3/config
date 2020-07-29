@@ -223,11 +223,12 @@ exec_always --no-startup-id xcompmgr -c -f -n
 bindsym Print       exec flameshot full -c
 bindsym Shift+Print exec flameshot gui
 
-# bindkeys
-exec --no-startup-id setxkbmap -layout us,ua,ru
-exec --no-startup-id setxkbmap -option 'grp:win_space_toogle'
+# autostart
+exec_always --no-startup-id "setxkbmap -layout us,ua,ru"
+exec_always --no-startup-id "setxkbmap -option 'grp:win_space_toogle'"
 exec --no-startup-id changing_locale
 exec --no-startup-id keyboard
+
 # background 
 exec --no-startup-id feh --bg-scale  Pictures/Wallpapers/uckgbxxfvdr21.png
 
@@ -237,6 +238,7 @@ exec --no-startup-id guake
 # start polybar 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+# conky
 
 # for_window [class=".*"] border pixel 4
 hide_edge_borders both
